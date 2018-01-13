@@ -1,0 +1,1378 @@
+2018-01-04T23:47:48.131Z - info:   [05744] *** FOLDER: d:\CairsClient ***
+2018-01-04T23:47:48.131Z - info:   [05744] VSTSVSCode/1.122.0 (VSCode 1.19.1; Windows_NT 10.0.16299; Node 7.9.0)
+2018-01-04T23:47:48.132Z - debug:  [05744] Looking for an External Context at d:\CairsClient
+2018-01-04T23:47:48.132Z - debug:  [05744] No External Context at d:\CairsClient
+2018-01-04T23:47:48.132Z - debug:  [05744] Looking for TFVC repository at d:\CairsClient
+2018-01-04T23:47:48.133Z - debug:  [05744] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-04T23:47:48.134Z - debug:  [05744] Using TFS proxy: 
+2018-01-04T23:47:48.134Z - debug:  [05744] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-04T23:47:48.135Z - debug:  [05744] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-04T23:47:48.137Z - debug:  [05744] TFVC Repository.CheckVersion
+2018-01-04T23:47:48.137Z - debug:  [05744] TFVC: tf add -noprompt -?
+2018-01-04T23:47:48.141Z - debug:  [05744] TFVC: spawned new process (duration: 4ms)
+2018-01-04T23:47:48.146Z - debug:  [05744] TFVC: spawned new process (duration: 5ms)
+2018-01-04T23:47:48.304Z - debug:  [05744] TFVC: add exit code: 0 (duration: 167ms)
+2018-01-04T23:47:48.304Z - debug:  [05744] TFVC Minimum required version: 14.102.0
+2018-01-04T23:47:48.304Z - debug:  [05744] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-04T23:47:48.305Z - debug:  [05744] TFVC Repository.FindWorkspace with localPath='d:\CairsClient'
+2018-01-04T23:47:48.305Z - debug:  [05744] TFVC: tf workfold -noprompt ********
+2018-01-04T23:47:48.308Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-04T23:47:48.561Z - debug:  [05744] TFVC: workfold exit code: 0 (duration: 256ms)
+2018-01-04T23:47:48.562Z - debug:  [05744] Found a TFVC repository for url: 'https://uniquedev.visualstudio.com/' and team project: 'CairsDotNet'.
+2018-01-04T23:47:48.563Z - debug:  [05744] _isTeamServicesUrl: true
+2018-01-04T23:47:48.564Z - debug:  [05744] Parsing values from repositoryInfo as string url
+2018-01-04T23:47:48.564Z - debug:  [05744] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-04T23:47:48.565Z - debug:  [05744] Using TFS proxy: 
+2018-01-04T23:47:48.565Z - debug:  [05744] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-04T23:47:48.565Z - debug:  [05744] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-04T23:47:48.608Z - debug:  [05744] Started ApplicationInsights telemetry
+2018-01-04T23:47:48.608Z - info:   [05744] Getting repository information with repositoryInfoClient
+2018-01-04T23:47:48.608Z - debug:  [05744] RemoteUrl = https://uniquedev.visualstudio.com/
+2018-01-04T23:47:48.608Z - debug:  [05744] Getting repository information for a TFVC repository at https://uniquedev.visualstudio.com/
+2018-01-04T23:47:48.609Z - debug:  [05744] _isTeamServicesUrl: true
+2018-01-04T23:47:48.610Z - debug:  [05744] Parsing values from repositoryInfo as string url
+2018-01-04T23:47:52.556Z - debug:  [05744] Successfully validated the Team Services TFVC repository. Collection name: 'uniquedev', 'Url: https://uniquedev.visualstudio.com/'
+2018-01-04T23:47:52.557Z - debug:  [05744] Getting project collection...  url: 'https://uniquedev.visualstudio.com/', and collection name: 'uniquedev'
+2018-01-04T23:47:52.557Z - debug:  [05744] Using REST to get the project collection information
+2018-01-04T23:47:58.336Z - debug:  [05744] Found a project collection for url: 'https://uniquedev.visualstudio.com/' and collection name: 'uniquedev'.
+2018-01-04T23:47:58.336Z - debug:  [05744] Getting team project...  Url: 'https://uniquedev.visualstudio.com/', collection name: 'uniquedev', and project: 'CairsDotNet'
+2018-01-04T23:48:03.383Z - debug:  [05744] Found a team project for url: 'https://uniquedev.visualstudio.com/', collection name: 'uniquedev', and project id: '180c142e-371a-4257-be61-89cd67148942'
+2018-01-04T23:48:03.383Z - debug:  [05744] Repository information blob:
+2018-01-04T23:48:03.383Z - debug:  serverUrl=https://uniquedev.visualstudio.com/, id=f8266964-bd1c-44d9-af22-78bef4f61c9d, name=uniquedev, url=https://uniquedev.visualstudio.com/_apis/projectCollections/f8266964-bd1c-44d9-af22-78bef4f61c9d, id=00000000-0000-0000-0000-000000000000, name=NoNameTfvcRepository, url=https://uniquedev.visualstudio.com/, id=180c142e-371a-4257-be61-89cd67148942, name=CairsDotNet, description=cairs.net version 4.0, url=https://uniquedev.visualstudio.com/_apis/projects/180c142e-371a-4257-be61-89cd67148942, state=1, revision=15, remoteUrl=https://uniquedev.visualstudio.com/
+2018-01-04T23:48:03.384Z - debug:  [05744] _isTeamServicesUrl: true
+2018-01-04T23:48:03.384Z - debug:  [05744] Parsing values from repositoryInfo object as any
+2018-01-04T23:48:03.384Z - debug:  [05744] _collection: uniquedev
+2018-01-04T23:48:03.384Z - debug:  [05744] _collectionId: f8266964-bd1c-44d9-af22-78bef4f61c9d
+2018-01-04T23:48:03.384Z - debug:  [05744] _repositoryId: 00000000-0000-0000-0000-000000000000
+2018-01-04T23:48:03.384Z - debug:  [05744] _repositoryName: NoNameTfvcRepository
+2018-01-04T23:48:03.384Z - debug:  [05744] _teamProject: CairsDotNet
+2018-01-04T23:48:03.384Z - debug:  [05744] Finished getting repository information for the repository at https://uniquedev.visualstudio.com/
+2018-01-04T23:48:03.385Z - info:   [05744] Getting connectionData with accountClient
+2018-01-04T23:48:03.385Z - debug:  [05744] connectionUrl = https://uniquedev.visualstudio.com
+2018-01-04T23:48:05.338Z - info:   [05744] Retrieved connectionData with accountClient
+2018-01-04T23:48:05.339Z - debug:  [05744] Found pinned queries in user configuration settings.
+2018-01-04T23:48:05.339Z - debug:  [05744] No account-specific pinned query or global pinned query found. Using default.
+2018-01-04T23:48:05.339Z - info:   [05744] Sent extension start up telemetry
+2018-01-04T23:48:05.339Z - debug:  id=41b7b6a1-28d4-45bb-8747-99ada24b3a06, descriptor=Microsoft.IdentityModel.Claims.ClaimsIdentity;8d639db3-3db5-4913-a87a-d12cec7bcc93\mark.moulton@unique.net, subjectDescriptor=aad.MTQwOTMzZGQtMzRmMy03MjZhLWIwZmEtY2U1ZWUzOTczOWQ3, providerDisplayName=Mark Moulton, isActive=true, members=[], memberOf=[], memberIds=[], $type=System.String, $value=User, $type=System.String, $value=, $type=System.String, $value=8d639db3-3db5-4913-a87a-d12cec7bcc93, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=Generic, $type=System.String, $value=aad:10033FFF8CBB769D, $type=System.DateTime, $value=2018-01-04T00:00:00Z, $type=System.String, $value=396f2b48-57e4-4421-b48b-0262e1c2ffbb, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton, resourceVersion=1, metaTypeId=0, id=41b7b6a1-28d4-45bb-8747-99ada24b3a06, descriptor=Microsoft.IdentityModel.Claims.ClaimsIdentity;8d639db3-3db5-4913-a87a-d12cec7bcc93\mark.moulton@unique.net, subjectDescriptor=aad.MTQwOTMzZGQtMzRmMy03MjZhLWIwZmEtY2U1ZWUzOTczOWQ3, providerDisplayName=Mark Moulton, isActive=true, members=[], memberOf=[], memberIds=[], $type=System.String, $value=User, $type=System.String, $value=, $type=System.String, $value=8d639db3-3db5-4913-a87a-d12cec7bcc93, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=Generic, $type=System.String, $value=aad:10033FFF8CBB769D, $type=System.DateTime, $value=2018-01-04T00:00:00Z, $type=System.String, $value=396f2b48-57e4-4421-b48b-0262e1c2ffbb, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton, resourceVersion=1, metaTypeId=0, instanceId=f8266964-bd1c-44d9-af22-78bef4f61c9d, deploymentId=52b4b0e6-4e32-471a-b490-dba776dd4096, serviceOwner=00025394-6065-48ca-87d9-7f5672854ef7, defaultAccessMappingMoniker=PublicAccessMapping, lastChangeId=144261156, lastChangeId64=144261156
+2018-01-04T23:48:05.341Z - debug:  [05744] Account: uniquedev Team Project: CairsDotNet Collection: uniquedev Repository: NoNameTfvcRepository UserCustomDisplayName: undefined UserProviderDisplayName: Mark Moulton UserId: 41b7b6a1-28d4-45bb-8747-99ada24b3a06 
+2018-01-04T23:48:05.341Z - debug:  [05744] repositoryFolder: d:\CairsClient
+2018-01-04T23:48:05.341Z - debug:  [05744] repositoryRemoteUrl: https://uniquedev.visualstudio.com/
+2018-01-04T23:48:05.341Z - debug:  [05744] IsSsh: false
+2018-01-04T23:48:05.341Z - debug:  [05744] proxy: not enabled, team services: true
+2018-01-04T23:48:05.341Z - info:   [05744] Sent TFVC tooling telemetry
+2018-01-04T23:48:05.341Z - debug:  [05744] Initializing the TfvcSCMProvider
+2018-01-04T23:48:05.342Z - debug:  [05744] TFVC Repository.CheckVersion
+2018-01-04T23:48:05.342Z - debug:  [05744] TFVC: tf add -noprompt -?
+2018-01-04T23:48:05.345Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-04T23:48:05.385Z - debug:  [05744] TFVC: add exit code: 0 (duration: 43ms)
+2018-01-04T23:48:05.385Z - debug:  [05744] TFVC Minimum required version: 14.102.0
+2018-01-04T23:48:05.385Z - debug:  [05744] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-04T23:48:05.386Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-04T23:48:05.386Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-04T23:48:05.390Z - debug:  [05744] TFVC: spawned new process (duration: 4ms)
+2018-01-04T23:48:05.769Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-04T23:48:05.769Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-04T23:48:05.773Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-04T23:48:09.339Z - info:   [05744] Polling for latest current build status...
+2018-01-04T23:48:09.339Z - info:   [05744] Getting current build from badge...
+2018-01-04T23:48:09.340Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-04T23:48:09.340Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-04T23:48:13.866Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-04T23:48:15.908Z - debug:  [05744] TFVC: status exit code: 0 (duration: 10515ms)
+2018-01-04T23:48:16.971Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-04T23:48:16.972Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-04T23:48:16.981Z - debug:  [05744] TFVC: spawned new process (duration: 7ms)
+2018-01-04T23:48:18.861Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1888ms)
+2018-01-04T23:48:19.349Z - debug:  [05744] Initialized the TfvcSCMProvider
+2018-01-04T23:48:21.635Z - debug:  [05744] TFVC: status exit code: 0 (duration: 15866ms)
+2018-01-04T23:48:22.789Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-04T23:48:22.789Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-04T23:48:22.793Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-04T23:48:24.524Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1735ms)
+2018-01-04T23:53:05.345Z - info:   [05744] Polling for latest current build status...
+2018-01-04T23:53:05.358Z - info:   [05744] Getting current build from badge...
+2018-01-04T23:53:05.362Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-04T23:53:05.363Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-04T23:53:10.150Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-04T23:58:05.364Z - info:   [05744] Polling for latest current build status...
+2018-01-04T23:58:05.366Z - info:   [05744] Getting current build from badge...
+2018-01-04T23:58:05.366Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-04T23:58:05.367Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-04T23:58:09.911Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:01:22.969Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:01:22.972Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:01:22.983Z - debug:  [05744] TFVC: spawned new process (duration: 8ms)
+2018-01-05T00:01:29.372Z - debug:  [05744] TFVC: status exit code: 0 (duration: 6399ms)
+2018-01-05T00:01:29.903Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:01:29.904Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:01:29.908Z - debug:  [05744] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:01:32.066Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 2161ms)
+2018-01-05T00:03:05.369Z - info:   [05744] Polling for latest current build status...
+2018-01-05T00:03:05.374Z - info:   [05744] Getting current build from badge...
+2018-01-05T00:03:05.377Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-05T00:03:05.379Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:03:10.257Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:08:05.379Z - info:   [05744] Polling for latest current build status...
+2018-01-05T00:08:05.381Z - info:   [05744] Getting current build from badge...
+2018-01-05T00:08:05.382Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-05T00:08:05.382Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:08:10.724Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:12:45.993Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:12:45.996Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:12:46.010Z - debug:  [05744] TFVC: spawned new process (duration: 10ms)
+2018-01-05T00:12:51.156Z - debug:  [05744] TFVC: status exit code: 0 (duration: 5159ms)
+2018-01-05T00:12:51.762Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:12:51.762Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:12:51.765Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:12:53.139Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1377ms)
+2018-01-05T00:13:05.383Z - info:   [05744] Polling for latest current build status...
+2018-01-05T00:13:05.384Z - info:   [05744] Getting current build from badge...
+2018-01-05T00:13:05.384Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-05T00:13:05.385Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:13:11.692Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:13:43.975Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:13:43.975Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:13:43.980Z - debug:  [05744] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:13:49.947Z - debug:  [05744] TFVC: status exit code: 0 (duration: 5972ms)
+2018-01-05T00:13:50.697Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:13:50.698Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:13:50.700Z - debug:  [05744] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:13:51.975Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1277ms)
+2018-01-05T00:14:12.145Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:14:12.146Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:14:12.155Z - debug:  [05744] TFVC: spawned new process (duration: 8ms)
+2018-01-05T00:14:17.165Z - debug:  [05744] TFVC: status exit code: 0 (duration: 5019ms)
+2018-01-05T00:14:17.736Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:14:17.736Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:14:17.738Z - debug:  [05744] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:14:19.327Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1591ms)
+2018-01-05T00:14:23.428Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:14:23.428Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:14:23.434Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:14:28.584Z - debug:  [05744] TFVC: status exit code: 0 (duration: 5155ms)
+2018-01-05T00:14:29.168Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:14:29.168Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:14:29.171Z - debug:  [05744] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:14:30.489Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1321ms)
+2018-01-05T00:15:51.953Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:15:51.954Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:15:51.971Z - debug:  [05744] TFVC: spawned new process (duration: 14ms)
+2018-01-05T00:15:57.012Z - debug:  [05744] TFVC: status exit code: 0 (duration: 5057ms)
+2018-01-05T00:15:57.526Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:15:57.526Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:15:57.530Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:15:58.944Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1418ms)
+2018-01-05T00:16:32.537Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:16:32.538Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:16:32.545Z - debug:  [05744] TFVC: spawned new process (duration: 6ms)
+2018-01-05T00:16:37.184Z - debug:  [05744] TFVC: status exit code: 0 (duration: 4646ms)
+2018-01-05T00:16:37.853Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:16:37.853Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:16:37.857Z - debug:  [05744] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:16:39.106Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1252ms)
+2018-01-05T00:17:11.595Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:17:11.596Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:17:11.606Z - debug:  [05744] TFVC: spawned new process (duration: 8ms)
+2018-01-05T00:17:16.154Z - debug:  [05744] TFVC: status exit code: 0 (duration: 4557ms)
+2018-01-05T00:17:16.681Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:17:16.681Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:17:16.683Z - debug:  [05744] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:17:18.011Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1330ms)
+2018-01-05T00:17:40.992Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:17:40.992Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:17:41.003Z - debug:  [05744] TFVC: spawned new process (duration: 9ms)
+2018-01-05T00:17:47.624Z - debug:  [05744] TFVC: status exit code: 0 (duration: 6631ms)
+2018-01-05T00:17:48.141Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:17:48.141Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:17:48.144Z - debug:  [05744] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:17:49.421Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1279ms)
+2018-01-05T00:18:02.903Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:18:02.903Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:18:02.909Z - debug:  [05744] TFVC: spawned new process (duration: 5ms)
+2018-01-05T00:18:05.389Z - info:   [05744] Polling for latest current build status...
+2018-01-05T00:18:05.391Z - info:   [05744] Getting current build from badge...
+2018-01-05T00:18:05.393Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-05T00:18:05.393Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:18:08.596Z - debug:  [05744] TFVC: status exit code: 0 (duration: 5693ms)
+2018-01-05T00:18:09.496Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:18:09.496Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:18:09.498Z - debug:  [05744] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:18:10.755Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1259ms)
+2018-01-05T00:18:11.008Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:18:29.209Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:18:29.210Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:18:29.220Z - debug:  [05744] TFVC: spawned new process (duration: 9ms)
+2018-01-05T00:18:34.146Z - debug:  [05744] TFVC: status exit code: 0 (duration: 4936ms)
+2018-01-05T00:18:35.107Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:18:35.107Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:18:35.110Z - debug:  [05744] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:18:36.590Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1482ms)
+2018-01-05T00:23:05.394Z - info:   [05744] Polling for latest current build status...
+2018-01-05T00:23:05.397Z - info:   [05744] Getting current build from badge...
+2018-01-05T00:23:05.398Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-05T00:23:05.398Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:23:11.583Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:24:01.626Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:24:01.631Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:24:01.648Z - debug:  [05744] TFVC: spawned new process (duration: 10ms)
+2018-01-05T00:24:06.325Z - debug:  [05744] TFVC: status exit code: 0 (duration: 4692ms)
+2018-01-05T00:24:07.275Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:24:07.276Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:24:07.278Z - debug:  [05744] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:24:08.639Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1363ms)
+2018-01-05T00:26:51.895Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:26:51.895Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:26:51.899Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:26:57.668Z - debug:  [05744] TFVC: status exit code: 0 (duration: 5772ms)
+2018-01-05T00:26:58.549Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:26:58.549Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:26:58.552Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:26:59.363Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 814ms)
+2018-01-05T00:28:05.399Z - info:   [05744] Polling for latest current build status...
+2018-01-05T00:28:05.402Z - info:   [05744] Getting current build from badge...
+2018-01-05T00:28:05.404Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-05T00:28:05.404Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:28:09.648Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:32:57.925Z - debug:  [05744] TFVC Repository.GetStatus
+2018-01-05T00:32:57.928Z - debug:  [05744] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:32:57.946Z - debug:  [05744] TFVC: spawned new process (duration: 11ms)
+2018-01-05T00:33:02.675Z - debug:  [05744] TFVC: status exit code: 0 (duration: 4747ms)
+2018-01-05T00:33:03.664Z - debug:  [05744] TFVC Repository.FindConflicts
+2018-01-05T00:33:03.665Z - debug:  [05744] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:33:03.669Z - debug:  [05744] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:33:04.999Z - debug:  [05744] TFVC: resolve exit code: 0 (duration: 1334ms)
+2018-01-05T00:33:09.044Z - info:   [05744] Polling for latest current build status...
+2018-01-05T00:33:09.046Z - info:   [05744] Getting current build from badge...
+2018-01-05T00:33:09.047Z - info:   [05744] Polling for the pinned work itemquery
+2018-01-05T00:33:09.048Z - info:   [05744] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:33:14.308Z - info:   [05744] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:34:31.965Z - info:   [15836] *** FOLDER: d:\CairsClient ***
+2018-01-05T00:34:31.966Z - info:   [15836] VSTSVSCode/1.122.0 (VSCode 1.19.1; Windows_NT 10.0.16299; Node 7.9.0)
+2018-01-05T00:34:31.966Z - debug:  [15836] Looking for an External Context at d:\CairsClient
+2018-01-05T00:34:31.966Z - debug:  [15836] No External Context at d:\CairsClient
+2018-01-05T00:34:31.967Z - debug:  [15836] Looking for TFVC repository at d:\CairsClient
+2018-01-05T00:34:31.967Z - debug:  [15836] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-05T00:34:31.969Z - debug:  [15836] Using TFS proxy: 
+2018-01-05T00:34:31.970Z - debug:  [15836] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-05T00:34:31.972Z - debug:  [15836] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-05T00:34:31.974Z - debug:  [15836] TFVC Repository.CheckVersion
+2018-01-05T00:34:31.974Z - debug:  [15836] TFVC: tf add -noprompt -?
+2018-01-05T00:34:31.978Z - debug:  [15836] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:34:31.983Z - debug:  [15836] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:34:32.633Z - debug:  [15836] TFVC: add exit code: 0 (duration: 659ms)
+2018-01-05T00:34:32.634Z - debug:  [15836] TFVC Minimum required version: 14.102.0
+2018-01-05T00:34:32.634Z - debug:  [15836] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-05T00:34:32.634Z - debug:  [15836] TFVC Repository.FindWorkspace with localPath='d:\CairsClient'
+2018-01-05T00:34:32.634Z - debug:  [15836] TFVC: tf workfold -noprompt ********
+2018-01-05T00:34:32.642Z - debug:  [15836] TFVC: spawned new process (duration: 7ms)
+2018-01-05T00:34:33.024Z - debug:  [15836] TFVC: workfold exit code: 0 (duration: 389ms)
+2018-01-05T00:34:33.024Z - debug:  [15836] Found a TFVC repository for url: 'https://uniquedev.visualstudio.com/' and team project: 'CairsDotNet'.
+2018-01-05T00:34:33.025Z - debug:  [15836] _isTeamServicesUrl: true
+2018-01-05T00:34:33.025Z - debug:  [15836] Parsing values from repositoryInfo as string url
+2018-01-05T00:34:33.025Z - debug:  [15836] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-05T00:34:33.027Z - debug:  [15836] Using TFS proxy: 
+2018-01-05T00:34:33.027Z - debug:  [15836] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-05T00:34:33.027Z - debug:  [15836] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-05T00:34:33.132Z - debug:  [15836] Started ApplicationInsights telemetry
+2018-01-05T00:34:33.133Z - info:   [15836] Getting repository information with repositoryInfoClient
+2018-01-05T00:34:33.133Z - debug:  [15836] RemoteUrl = https://uniquedev.visualstudio.com/
+2018-01-05T00:34:33.133Z - debug:  [15836] Getting repository information for a TFVC repository at https://uniquedev.visualstudio.com/
+2018-01-05T00:34:33.135Z - debug:  [15836] _isTeamServicesUrl: true
+2018-01-05T00:34:33.136Z - debug:  [15836] Parsing values from repositoryInfo as string url
+2018-01-05T00:34:35.710Z - debug:  [15836] Successfully validated the Team Services TFVC repository. Collection name: 'uniquedev', 'Url: https://uniquedev.visualstudio.com/'
+2018-01-05T00:34:35.710Z - debug:  [15836] Getting project collection...  url: 'https://uniquedev.visualstudio.com/', and collection name: 'uniquedev'
+2018-01-05T00:34:35.710Z - debug:  [15836] Using REST to get the project collection information
+2018-01-05T00:34:44.983Z - info:   [03128] *** FOLDER: d:\CairsClient ***
+2018-01-05T00:34:44.984Z - info:   [03128] VSTSVSCode/1.122.0 (VSCode 1.19.1; Windows_NT 10.0.16299; Node 7.9.0)
+2018-01-05T00:34:44.984Z - debug:  [03128] Looking for an External Context at d:\CairsClient
+2018-01-05T00:34:44.984Z - debug:  [03128] No External Context at d:\CairsClient
+2018-01-05T00:34:44.985Z - debug:  [03128] Looking for TFVC repository at d:\CairsClient
+2018-01-05T00:34:44.985Z - debug:  [03128] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-05T00:34:44.986Z - debug:  [03128] Using TFS proxy: 
+2018-01-05T00:34:44.986Z - debug:  [03128] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-05T00:34:44.986Z - debug:  [03128] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-05T00:34:44.988Z - debug:  [03128] TFVC Repository.CheckVersion
+2018-01-05T00:34:44.989Z - debug:  [03128] TFVC: tf add -noprompt -?
+2018-01-05T00:34:45.005Z - debug:  [03128] TFVC: spawned new process (duration: 16ms)
+2018-01-05T00:34:45.010Z - debug:  [03128] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:34:45.936Z - debug:  [03128] TFVC: add exit code: 0 (duration: 947ms)
+2018-01-05T00:34:45.936Z - debug:  [03128] TFVC Minimum required version: 14.102.0
+2018-01-05T00:34:45.936Z - debug:  [03128] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-05T00:34:45.937Z - debug:  [03128] TFVC Repository.FindWorkspace with localPath='d:\CairsClient'
+2018-01-05T00:34:45.937Z - debug:  [03128] TFVC: tf workfold -noprompt ********
+2018-01-05T00:34:45.941Z - debug:  [03128] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:34:46.462Z - debug:  [03128] TFVC: workfold exit code: 0 (duration: 525ms)
+2018-01-05T00:34:46.463Z - debug:  [03128] Found a TFVC repository for url: 'https://uniquedev.visualstudio.com/' and team project: 'CairsDotNet'.
+2018-01-05T00:34:46.464Z - debug:  [03128] _isTeamServicesUrl: true
+2018-01-05T00:34:46.464Z - debug:  [03128] Parsing values from repositoryInfo as string url
+2018-01-05T00:34:46.464Z - debug:  [03128] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-05T00:34:46.465Z - debug:  [03128] Using TFS proxy: 
+2018-01-05T00:34:46.465Z - debug:  [03128] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-05T00:34:46.465Z - debug:  [03128] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-05T00:34:46.722Z - debug:  [03128] Started ApplicationInsights telemetry
+2018-01-05T00:34:46.722Z - info:   [03128] Getting repository information with repositoryInfoClient
+2018-01-05T00:34:46.722Z - debug:  [03128] RemoteUrl = https://uniquedev.visualstudio.com/
+2018-01-05T00:34:46.723Z - debug:  [03128] Getting repository information for a TFVC repository at https://uniquedev.visualstudio.com/
+2018-01-05T00:34:46.724Z - debug:  [03128] _isTeamServicesUrl: true
+2018-01-05T00:34:46.724Z - debug:  [03128] Parsing values from repositoryInfo as string url
+2018-01-05T00:34:49.734Z - debug:  [03128] Successfully validated the Team Services TFVC repository. Collection name: 'uniquedev', 'Url: https://uniquedev.visualstudio.com/'
+2018-01-05T00:34:49.734Z - debug:  [03128] Getting project collection...  url: 'https://uniquedev.visualstudio.com/', and collection name: 'uniquedev'
+2018-01-05T00:34:49.734Z - debug:  [03128] Using REST to get the project collection information
+2018-01-05T00:34:54.870Z - debug:  [03128] Found a project collection for url: 'https://uniquedev.visualstudio.com/' and collection name: 'uniquedev'.
+2018-01-05T00:34:54.870Z - debug:  [03128] Getting team project...  Url: 'https://uniquedev.visualstudio.com/', collection name: 'uniquedev', and project: 'CairsDotNet'
+2018-01-05T00:34:59.093Z - debug:  [03128] Found a team project for url: 'https://uniquedev.visualstudio.com/', collection name: 'uniquedev', and project id: '180c142e-371a-4257-be61-89cd67148942'
+2018-01-05T00:34:59.094Z - debug:  [03128] Repository information blob:
+2018-01-05T00:34:59.094Z - debug:  serverUrl=https://uniquedev.visualstudio.com/, id=f8266964-bd1c-44d9-af22-78bef4f61c9d, name=uniquedev, url=https://uniquedev.visualstudio.com/_apis/projectCollections/f8266964-bd1c-44d9-af22-78bef4f61c9d, id=00000000-0000-0000-0000-000000000000, name=NoNameTfvcRepository, url=https://uniquedev.visualstudio.com/, id=180c142e-371a-4257-be61-89cd67148942, name=CairsDotNet, description=cairs.net version 4.0, url=https://uniquedev.visualstudio.com/_apis/projects/180c142e-371a-4257-be61-89cd67148942, state=1, revision=15, remoteUrl=https://uniquedev.visualstudio.com/
+2018-01-05T00:34:59.095Z - debug:  [03128] _isTeamServicesUrl: true
+2018-01-05T00:34:59.096Z - debug:  [03128] Parsing values from repositoryInfo object as any
+2018-01-05T00:34:59.097Z - debug:  [03128] _collection: uniquedev
+2018-01-05T00:34:59.097Z - debug:  [03128] _collectionId: f8266964-bd1c-44d9-af22-78bef4f61c9d
+2018-01-05T00:34:59.097Z - debug:  [03128] _repositoryId: 00000000-0000-0000-0000-000000000000
+2018-01-05T00:34:59.097Z - debug:  [03128] _repositoryName: NoNameTfvcRepository
+2018-01-05T00:34:59.098Z - debug:  [03128] _teamProject: CairsDotNet
+2018-01-05T00:34:59.098Z - debug:  [03128] Finished getting repository information for the repository at https://uniquedev.visualstudio.com/
+2018-01-05T00:34:59.099Z - info:   [03128] Getting connectionData with accountClient
+2018-01-05T00:34:59.099Z - debug:  [03128] connectionUrl = https://uniquedev.visualstudio.com
+2018-01-05T00:35:01.303Z - info:   [03128] Retrieved connectionData with accountClient
+2018-01-05T00:35:01.307Z - debug:  [03128] Found pinned queries in user configuration settings.
+2018-01-05T00:35:01.307Z - debug:  [03128] No account-specific pinned query or global pinned query found. Using default.
+2018-01-05T00:35:01.309Z - info:   [03128] Sent extension start up telemetry
+2018-01-05T00:35:01.309Z - debug:  id=41b7b6a1-28d4-45bb-8747-99ada24b3a06, descriptor=Microsoft.IdentityModel.Claims.ClaimsIdentity;8d639db3-3db5-4913-a87a-d12cec7bcc93\mark.moulton@unique.net, subjectDescriptor=aad.MTQwOTMzZGQtMzRmMy03MjZhLWIwZmEtY2U1ZWUzOTczOWQ3, providerDisplayName=Mark Moulton, isActive=true, members=[], memberOf=[], memberIds=[], $type=System.String, $value=User, $type=System.String, $value=, $type=System.String, $value=8d639db3-3db5-4913-a87a-d12cec7bcc93, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=Generic, $type=System.String, $value=aad:10033FFF8CBB769D, $type=System.DateTime, $value=2018-01-04T00:00:00Z, $type=System.String, $value=396f2b48-57e4-4421-b48b-0262e1c2ffbb, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton, resourceVersion=1, metaTypeId=0, id=41b7b6a1-28d4-45bb-8747-99ada24b3a06, descriptor=Microsoft.IdentityModel.Claims.ClaimsIdentity;8d639db3-3db5-4913-a87a-d12cec7bcc93\mark.moulton@unique.net, subjectDescriptor=aad.MTQwOTMzZGQtMzRmMy03MjZhLWIwZmEtY2U1ZWUzOTczOWQ3, providerDisplayName=Mark Moulton, isActive=true, members=[], memberOf=[], memberIds=[], $type=System.String, $value=User, $type=System.String, $value=, $type=System.String, $value=8d639db3-3db5-4913-a87a-d12cec7bcc93, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=Generic, $type=System.String, $value=aad:10033FFF8CBB769D, $type=System.DateTime, $value=2018-01-04T00:00:00Z, $type=System.String, $value=396f2b48-57e4-4421-b48b-0262e1c2ffbb, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton, resourceVersion=1, metaTypeId=0, instanceId=f8266964-bd1c-44d9-af22-78bef4f61c9d, deploymentId=52b4b0e6-4e32-471a-b490-dba776dd4096, serviceOwner=00025394-6065-48ca-87d9-7f5672854ef7, defaultAccessMappingMoniker=PublicAccessMapping, lastChangeId=144277540, lastChangeId64=144277540
+2018-01-05T00:35:01.314Z - debug:  [03128] Account: uniquedev Team Project: CairsDotNet Collection: uniquedev Repository: NoNameTfvcRepository UserCustomDisplayName: undefined UserProviderDisplayName: Mark Moulton UserId: 41b7b6a1-28d4-45bb-8747-99ada24b3a06 
+2018-01-05T00:35:01.314Z - debug:  [03128] repositoryFolder: d:\CairsClient
+2018-01-05T00:35:01.315Z - debug:  [03128] repositoryRemoteUrl: https://uniquedev.visualstudio.com/
+2018-01-05T00:35:01.315Z - debug:  [03128] IsSsh: false
+2018-01-05T00:35:01.316Z - debug:  [03128] proxy: not enabled, team services: true
+2018-01-05T00:35:01.316Z - info:   [03128] Sent TFVC tooling telemetry
+2018-01-05T00:35:01.317Z - debug:  [03128] Initializing the TfvcSCMProvider
+2018-01-05T00:35:01.318Z - debug:  [03128] TFVC Repository.CheckVersion
+2018-01-05T00:35:01.319Z - debug:  [03128] TFVC: tf add -noprompt -?
+2018-01-05T00:35:01.329Z - debug:  [03128] TFVC: spawned new process (duration: 8ms)
+2018-01-05T00:35:01.386Z - debug:  [03128] TFVC: add exit code: 0 (duration: 66ms)
+2018-01-05T00:35:01.386Z - debug:  [03128] TFVC Minimum required version: 14.102.0
+2018-01-05T00:35:01.386Z - debug:  [03128] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-05T00:35:01.387Z - debug:  [03128] TFVC Repository.GetStatus
+2018-01-05T00:35:01.387Z - debug:  [03128] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:35:01.391Z - debug:  [03128] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:35:05.308Z - info:   [03128] Polling for latest current build status...
+2018-01-05T00:35:05.309Z - info:   [03128] Getting current build from badge...
+2018-01-05T00:35:05.310Z - info:   [03128] Polling for the pinned work itemquery
+2018-01-05T00:35:05.310Z - info:   [03128] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:35:06.876Z - debug:  [03128] TFVC: status exit code: 0 (duration: 5489ms)
+2018-01-05T00:35:07.423Z - debug:  [03128] TFVC Repository.FindConflicts
+2018-01-05T00:35:07.423Z - debug:  [03128] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:35:07.429Z - debug:  [03128] TFVC: spawned new process (duration: 5ms)
+2018-01-05T00:35:08.944Z - debug:  [03128] TFVC: resolve exit code: 0 (duration: 1520ms)
+2018-01-05T00:35:09.119Z - debug:  [03128] Initialized the TfvcSCMProvider
+2018-01-05T00:35:11.946Z - info:   [03128] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:36:18.668Z - debug:  [03128] TFVC Repository.GetStatus
+2018-01-05T00:36:18.669Z - debug:  [03128] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:36:18.678Z - debug:  [03128] TFVC: spawned new process (duration: 6ms)
+2018-01-05T00:36:23.522Z - debug:  [03128] TFVC: status exit code: 0 (duration: 4853ms)
+2018-01-05T00:36:24.019Z - debug:  [03128] TFVC Repository.FindConflicts
+2018-01-05T00:36:24.019Z - debug:  [03128] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:36:24.022Z - debug:  [03128] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:36:26.126Z - debug:  [03128] TFVC: resolve exit code: 0 (duration: 2105ms)
+2018-01-05T00:37:42.128Z - debug:  [03128] TFVC Repository.GetStatus
+2018-01-05T00:37:42.133Z - debug:  [03128] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:37:42.147Z - debug:  [03128] TFVC: spawned new process (duration: 9ms)
+2018-01-05T00:37:47.061Z - debug:  [03128] TFVC: status exit code: 0 (duration: 4927ms)
+2018-01-05T00:37:47.946Z - debug:  [03128] TFVC Repository.FindConflicts
+2018-01-05T00:37:47.946Z - debug:  [03128] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:37:47.949Z - debug:  [03128] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:37:49.907Z - debug:  [03128] TFVC: resolve exit code: 0 (duration: 1961ms)
+2018-01-05T00:40:01.310Z - info:   [03128] Polling for latest current build status...
+2018-01-05T00:40:01.314Z - info:   [03128] Getting current build from badge...
+2018-01-05T00:40:01.316Z - info:   [03128] Polling for the pinned work itemquery
+2018-01-05T00:40:01.317Z - info:   [03128] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:40:07.125Z - info:   [03128] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:42:39.151Z - debug:  [03128] TFVC Repository.GetStatus
+2018-01-05T00:42:39.152Z - debug:  [03128] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:42:39.168Z - debug:  [03128] TFVC: spawned new process (duration: 10ms)
+2018-01-05T00:42:44.827Z - debug:  [03128] TFVC: status exit code: 0 (duration: 5674ms)
+2018-01-05T00:42:45.326Z - debug:  [03128] TFVC Repository.FindConflicts
+2018-01-05T00:42:45.327Z - debug:  [03128] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:42:45.329Z - debug:  [03128] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:42:46.179Z - debug:  [03128] TFVC: resolve exit code: 0 (duration: 852ms)
+2018-01-05T00:45:00.409Z - debug:  [03128] TFVC Repository.GetStatus
+2018-01-05T00:45:00.411Z - debug:  [03128] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:45:00.416Z - debug:  [03128] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:45:01.317Z - info:   [03128] Polling for latest current build status...
+2018-01-05T00:45:01.318Z - info:   [03128] Getting current build from badge...
+2018-01-05T00:45:01.320Z - info:   [03128] Polling for the pinned work itemquery
+2018-01-05T00:45:01.320Z - info:   [03128] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:45:05.870Z - debug:  [03128] TFVC: status exit code: 0 (duration: 5458ms)
+2018-01-05T00:45:06.663Z - debug:  [03128] TFVC Repository.FindConflicts
+2018-01-05T00:45:06.663Z - debug:  [03128] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:45:06.666Z - debug:  [03128] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:45:07.624Z - info:   [03128] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:45:07.907Z - debug:  [03128] TFVC: resolve exit code: 0 (duration: 1244ms)
+2018-01-05T00:45:25.411Z - debug:  [03128] TFVC Repository.GetStatus
+2018-01-05T00:45:25.411Z - debug:  [03128] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:45:25.414Z - debug:  [03128] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:45:32.030Z - debug:  [03128] TFVC: status exit code: 0 (duration: 6619ms)
+2018-01-05T00:45:32.694Z - debug:  [03128] TFVC Repository.FindConflicts
+2018-01-05T00:45:32.694Z - debug:  [03128] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:45:32.697Z - debug:  [03128] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:45:33.903Z - debug:  [03128] TFVC: resolve exit code: 0 (duration: 1209ms)
+2018-01-05T00:45:40.971Z - debug:  [03128] TFVC Repository.GetStatus
+2018-01-05T00:45:40.972Z - debug:  [03128] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:45:40.975Z - debug:  [03128] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:45:47.482Z - debug:  [03128] TFVC: status exit code: 0 (duration: 6509ms)
+2018-01-05T00:45:48.014Z - debug:  [03128] TFVC Repository.FindConflicts
+2018-01-05T00:45:48.014Z - debug:  [03128] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:45:48.016Z - debug:  [03128] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:45:49.702Z - debug:  [03128] TFVC: resolve exit code: 0 (duration: 1688ms)
+2018-01-05T00:46:34.316Z - debug:  [03128] TFVC Repository.GetStatus
+2018-01-05T00:46:34.317Z - debug:  [03128] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:46:34.327Z - debug:  [03128] TFVC: spawned new process (duration: 9ms)
+2018-01-05T00:46:39.630Z - debug:  [03128] TFVC: status exit code: 0 (duration: 5313ms)
+2018-01-05T00:46:40.151Z - debug:  [03128] TFVC Repository.FindConflicts
+2018-01-05T00:46:40.152Z - debug:  [03128] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:46:40.154Z - debug:  [03128] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:46:41.566Z - debug:  [03128] TFVC: resolve exit code: 0 (duration: 1414ms)
+2018-01-05T00:48:47.359Z - info:   [17276] *** FOLDER: d:\CairsClient ***
+2018-01-05T00:48:47.359Z - info:   [17276] VSTSVSCode/1.122.0 (VSCode 1.19.1; Windows_NT 10.0.16299; Node 7.9.0)
+2018-01-05T00:48:47.359Z - debug:  [17276] Looking for an External Context at d:\CairsClient
+2018-01-05T00:48:47.359Z - debug:  [17276] No External Context at d:\CairsClient
+2018-01-05T00:48:47.359Z - debug:  [17276] Looking for TFVC repository at d:\CairsClient
+2018-01-05T00:48:47.359Z - debug:  [17276] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-05T00:48:47.360Z - debug:  [17276] Using TFS proxy: 
+2018-01-05T00:48:47.362Z - debug:  [17276] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-05T00:48:47.362Z - debug:  [17276] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-05T00:48:47.363Z - debug:  [17276] TFVC Repository.CheckVersion
+2018-01-05T00:48:47.364Z - debug:  [17276] TFVC: tf add -noprompt -?
+2018-01-05T00:48:47.367Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:48:47.370Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:48:47.547Z - debug:  [17276] TFVC: add exit code: 0 (duration: 183ms)
+2018-01-05T00:48:47.548Z - debug:  [17276] TFVC Minimum required version: 14.102.0
+2018-01-05T00:48:47.548Z - debug:  [17276] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-05T00:48:47.549Z - debug:  [17276] TFVC Repository.FindWorkspace with localPath='d:\CairsClient'
+2018-01-05T00:48:47.549Z - debug:  [17276] TFVC: tf workfold -noprompt ********
+2018-01-05T00:48:47.553Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:48:48.001Z - debug:  [17276] TFVC: workfold exit code: 0 (duration: 452ms)
+2018-01-05T00:48:48.003Z - debug:  [17276] Found a TFVC repository for url: 'https://uniquedev.visualstudio.com/' and team project: 'CairsDotNet'.
+2018-01-05T00:48:48.004Z - debug:  [17276] _isTeamServicesUrl: true
+2018-01-05T00:48:48.004Z - debug:  [17276] Parsing values from repositoryInfo as string url
+2018-01-05T00:48:48.004Z - debug:  [17276] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-05T00:48:48.005Z - debug:  [17276] Using TFS proxy: 
+2018-01-05T00:48:48.005Z - debug:  [17276] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-05T00:48:48.006Z - debug:  [17276] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-05T00:48:48.110Z - debug:  [17276] Started ApplicationInsights telemetry
+2018-01-05T00:48:48.112Z - info:   [17276] Getting repository information with repositoryInfoClient
+2018-01-05T00:48:48.112Z - debug:  [17276] RemoteUrl = https://uniquedev.visualstudio.com/
+2018-01-05T00:48:48.112Z - debug:  [17276] Getting repository information for a TFVC repository at https://uniquedev.visualstudio.com/
+2018-01-05T00:48:48.112Z - debug:  [17276] _isTeamServicesUrl: true
+2018-01-05T00:48:48.112Z - debug:  [17276] Parsing values from repositoryInfo as string url
+2018-01-05T00:48:50.833Z - debug:  [17276] Successfully validated the Team Services TFVC repository. Collection name: 'uniquedev', 'Url: https://uniquedev.visualstudio.com/'
+2018-01-05T00:48:50.834Z - debug:  [17276] Getting project collection...  url: 'https://uniquedev.visualstudio.com/', and collection name: 'uniquedev'
+2018-01-05T00:48:50.834Z - debug:  [17276] Using REST to get the project collection information
+2018-01-05T00:48:55.140Z - debug:  [17276] Found a project collection for url: 'https://uniquedev.visualstudio.com/' and collection name: 'uniquedev'.
+2018-01-05T00:48:55.140Z - debug:  [17276] Getting team project...  Url: 'https://uniquedev.visualstudio.com/', collection name: 'uniquedev', and project: 'CairsDotNet'
+2018-01-05T00:49:00.730Z - debug:  [17276] Found a team project for url: 'https://uniquedev.visualstudio.com/', collection name: 'uniquedev', and project id: '180c142e-371a-4257-be61-89cd67148942'
+2018-01-05T00:49:00.730Z - debug:  [17276] Repository information blob:
+2018-01-05T00:49:00.731Z - debug:  serverUrl=https://uniquedev.visualstudio.com/, id=f8266964-bd1c-44d9-af22-78bef4f61c9d, name=uniquedev, url=https://uniquedev.visualstudio.com/_apis/projectCollections/f8266964-bd1c-44d9-af22-78bef4f61c9d, id=00000000-0000-0000-0000-000000000000, name=NoNameTfvcRepository, url=https://uniquedev.visualstudio.com/, id=180c142e-371a-4257-be61-89cd67148942, name=CairsDotNet, description=cairs.net version 4.0, url=https://uniquedev.visualstudio.com/_apis/projects/180c142e-371a-4257-be61-89cd67148942, state=1, revision=15, remoteUrl=https://uniquedev.visualstudio.com/
+2018-01-05T00:49:00.734Z - debug:  [17276] _isTeamServicesUrl: true
+2018-01-05T00:49:00.734Z - debug:  [17276] Parsing values from repositoryInfo object as any
+2018-01-05T00:49:00.735Z - debug:  [17276] _collection: uniquedev
+2018-01-05T00:49:00.735Z - debug:  [17276] _collectionId: f8266964-bd1c-44d9-af22-78bef4f61c9d
+2018-01-05T00:49:00.736Z - debug:  [17276] _repositoryId: 00000000-0000-0000-0000-000000000000
+2018-01-05T00:49:00.736Z - debug:  [17276] _repositoryName: NoNameTfvcRepository
+2018-01-05T00:49:00.736Z - debug:  [17276] _teamProject: CairsDotNet
+2018-01-05T00:49:00.737Z - debug:  [17276] Finished getting repository information for the repository at https://uniquedev.visualstudio.com/
+2018-01-05T00:49:00.737Z - info:   [17276] Getting connectionData with accountClient
+2018-01-05T00:49:00.737Z - debug:  [17276] connectionUrl = https://uniquedev.visualstudio.com
+2018-01-05T00:49:02.528Z - info:   [17276] Retrieved connectionData with accountClient
+2018-01-05T00:49:02.533Z - debug:  [17276] Found pinned queries in user configuration settings.
+2018-01-05T00:49:02.534Z - debug:  [17276] No account-specific pinned query or global pinned query found. Using default.
+2018-01-05T00:49:02.536Z - info:   [17276] Sent extension start up telemetry
+2018-01-05T00:49:02.536Z - debug:  id=41b7b6a1-28d4-45bb-8747-99ada24b3a06, descriptor=Microsoft.IdentityModel.Claims.ClaimsIdentity;8d639db3-3db5-4913-a87a-d12cec7bcc93\mark.moulton@unique.net, subjectDescriptor=aad.MTQwOTMzZGQtMzRmMy03MjZhLWIwZmEtY2U1ZWUzOTczOWQ3, providerDisplayName=Mark Moulton, isActive=true, members=[], memberOf=[], memberIds=[], $type=System.String, $value=User, $type=System.String, $value=, $type=System.String, $value=8d639db3-3db5-4913-a87a-d12cec7bcc93, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=Generic, $type=System.String, $value=aad:10033FFF8CBB769D, $type=System.DateTime, $value=2018-01-04T00:00:00Z, $type=System.String, $value=396f2b48-57e4-4421-b48b-0262e1c2ffbb, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton, resourceVersion=1, metaTypeId=0, id=41b7b6a1-28d4-45bb-8747-99ada24b3a06, descriptor=Microsoft.IdentityModel.Claims.ClaimsIdentity;8d639db3-3db5-4913-a87a-d12cec7bcc93\mark.moulton@unique.net, subjectDescriptor=aad.MTQwOTMzZGQtMzRmMy03MjZhLWIwZmEtY2U1ZWUzOTczOWQ3, providerDisplayName=Mark Moulton, isActive=true, members=[], memberOf=[], memberIds=[], $type=System.String, $value=User, $type=System.String, $value=, $type=System.String, $value=8d639db3-3db5-4913-a87a-d12cec7bcc93, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=Generic, $type=System.String, $value=aad:10033FFF8CBB769D, $type=System.DateTime, $value=2018-01-04T00:00:00Z, $type=System.String, $value=396f2b48-57e4-4421-b48b-0262e1c2ffbb, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton, resourceVersion=1, metaTypeId=0, instanceId=f8266964-bd1c-44d9-af22-78bef4f61c9d, deploymentId=52b4b0e6-4e32-471a-b490-dba776dd4096, serviceOwner=00025394-6065-48ca-87d9-7f5672854ef7, defaultAccessMappingMoniker=PublicAccessMapping, lastChangeId=144277540, lastChangeId64=144277540
+2018-01-05T00:49:02.540Z - debug:  [17276] Account: uniquedev Team Project: CairsDotNet Collection: uniquedev Repository: NoNameTfvcRepository UserCustomDisplayName: undefined UserProviderDisplayName: Mark Moulton UserId: 41b7b6a1-28d4-45bb-8747-99ada24b3a06 
+2018-01-05T00:49:02.540Z - debug:  [17276] repositoryFolder: d:\CairsClient
+2018-01-05T00:49:02.540Z - debug:  [17276] repositoryRemoteUrl: https://uniquedev.visualstudio.com/
+2018-01-05T00:49:02.541Z - debug:  [17276] IsSsh: false
+2018-01-05T00:49:02.541Z - debug:  [17276] proxy: not enabled, team services: true
+2018-01-05T00:49:02.542Z - info:   [17276] Sent TFVC tooling telemetry
+2018-01-05T00:49:02.542Z - debug:  [17276] Initializing the TfvcSCMProvider
+2018-01-05T00:49:02.544Z - debug:  [17276] TFVC Repository.CheckVersion
+2018-01-05T00:49:02.545Z - debug:  [17276] TFVC: tf add -noprompt -?
+2018-01-05T00:49:02.553Z - debug:  [17276] TFVC: spawned new process (duration: 7ms)
+2018-01-05T00:49:02.601Z - debug:  [17276] TFVC: add exit code: 0 (duration: 55ms)
+2018-01-05T00:49:02.601Z - debug:  [17276] TFVC Minimum required version: 14.102.0
+2018-01-05T00:49:02.601Z - debug:  [17276] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-05T00:49:02.602Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:49:02.602Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:49:02.607Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:49:06.535Z - info:   [17276] Polling for latest current build status...
+2018-01-05T00:49:06.536Z - info:   [17276] Getting current build from badge...
+2018-01-05T00:49:06.536Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T00:49:06.536Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:49:08.087Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5482ms)
+2018-01-05T00:49:08.761Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:49:08.763Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:49:08.771Z - debug:  [17276] TFVC: spawned new process (duration: 7ms)
+2018-01-05T00:49:10.110Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1346ms)
+2018-01-05T00:49:10.343Z - debug:  [17276] Initialized the TfvcSCMProvider
+2018-01-05T00:49:11.899Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:50:02.620Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:50:02.622Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:50:02.631Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T00:50:08.386Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5763ms)
+2018-01-05T00:50:09.014Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:50:09.015Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:50:09.020Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T00:50:10.372Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1357ms)
+2018-01-05T00:51:57.566Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:51:57.567Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:51:57.571Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:52:05.056Z - debug:  [17276] TFVC: status exit code: 0 (duration: 7488ms)
+2018-01-05T00:52:05.658Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:52:05.658Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:52:05.662Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:52:07.104Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1446ms)
+2018-01-05T00:53:03.735Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:53:03.736Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:53:03.740Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:53:09.271Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5535ms)
+2018-01-05T00:53:09.775Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:53:09.775Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:53:09.778Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:53:11.251Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1476ms)
+2018-01-05T00:54:02.537Z - info:   [17276] Polling for latest current build status...
+2018-01-05T00:54:02.542Z - info:   [17276] Getting current build from badge...
+2018-01-05T00:54:02.546Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T00:54:02.548Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:54:08.532Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:54:50.241Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:54:50.242Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:54:50.251Z - debug:  [17276] TFVC: spawned new process (duration: 8ms)
+2018-01-05T00:54:56.668Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6426ms)
+2018-01-05T00:54:57.722Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:54:57.722Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:54:57.725Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:54:59.366Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1644ms)
+2018-01-05T00:56:01.830Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:56:01.830Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:56:01.833Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:56:10.173Z - debug:  [17276] TFVC: status exit code: 0 (duration: 8343ms)
+2018-01-05T00:56:10.821Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:56:10.822Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:56:10.824Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:56:12.452Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1630ms)
+2018-01-05T00:56:39.066Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:56:39.066Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:56:39.070Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:56:46.783Z - debug:  [17276] TFVC: status exit code: 0 (duration: 7717ms)
+2018-01-05T00:56:47.391Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:56:47.391Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:56:47.396Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:56:48.997Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1605ms)
+2018-01-05T00:57:44.896Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:57:44.896Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:57:44.906Z - debug:  [17276] TFVC: spawned new process (duration: 8ms)
+2018-01-05T00:57:50.002Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5106ms)
+2018-01-05T00:57:50.508Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:57:50.509Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:57:50.514Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:57:51.417Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 907ms)
+2018-01-05T00:57:58.915Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:57:58.916Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:57:58.930Z - debug:  [17276] TFVC: spawned new process (duration: 12ms)
+2018-01-05T00:58:04.122Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5206ms)
+2018-01-05T00:58:04.647Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:58:04.647Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:58:04.650Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:58:06.058Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1410ms)
+2018-01-05T00:58:10.035Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:58:10.035Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:58:10.041Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T00:58:15.384Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5349ms)
+2018-01-05T00:58:15.894Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:58:15.894Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:58:15.896Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:58:17.295Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1401ms)
+2018-01-05T00:58:21.691Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:58:21.692Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:58:21.695Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:58:26.952Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5260ms)
+2018-01-05T00:58:27.460Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:58:27.460Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:58:27.463Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T00:58:28.734Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1274ms)
+2018-01-05T00:58:33.943Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:58:33.943Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:58:33.949Z - debug:  [17276] TFVC: spawned new process (duration: 6ms)
+2018-01-05T00:58:39.942Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5999ms)
+2018-01-05T00:58:40.991Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:58:40.991Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:58:40.994Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:58:41.924Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 933ms)
+2018-01-05T00:59:02.549Z - info:   [17276] Polling for latest current build status...
+2018-01-05T00:59:02.552Z - info:   [17276] Getting current build from badge...
+2018-01-05T00:59:02.554Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T00:59:02.554Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T00:59:06.493Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T00:59:48.051Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T00:59:48.051Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T00:59:48.056Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T00:59:54.824Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6772ms)
+2018-01-05T00:59:55.778Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T00:59:55.778Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T00:59:55.781Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T00:59:57.115Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1337ms)
+2018-01-05T01:00:15.514Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:00:15.515Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:00:15.518Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:00:21.666Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6151ms)
+2018-01-05T01:00:22.903Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:00:22.903Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:00:22.906Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:00:24.397Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1494ms)
+2018-01-05T01:00:30.237Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:00:30.237Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:00:30.240Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:00:35.465Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5228ms)
+2018-01-05T01:00:36.338Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:00:36.338Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:00:36.341Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:00:37.695Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1357ms)
+2018-01-05T01:02:05.442Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:02:05.442Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:02:05.449Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:02:12.399Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6956ms)
+2018-01-05T01:02:13.332Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:02:13.332Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:02:13.337Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:02:14.753Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1421ms)
+2018-01-05T01:04:02.558Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:04:02.563Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:04:02.565Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:04:02.565Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:04:07.401Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:04:22.377Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:04:22.379Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:04:22.382Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:04:29.310Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6931ms)
+2018-01-05T01:04:30.354Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:04:30.355Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:04:30.358Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:04:31.171Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 816ms)
+2018-01-05T01:05:22.689Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:05:22.689Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:05:22.692Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:05:29.392Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6703ms)
+2018-01-05T01:05:30.385Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:05:30.385Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:05:30.388Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:05:31.612Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1227ms)
+2018-01-05T01:06:03.050Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:06:03.050Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:06:03.054Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:06:09.333Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6283ms)
+2018-01-05T01:06:10.259Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:06:10.259Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:06:10.262Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:06:12.005Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1745ms)
+2018-01-05T01:06:12.258Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:06:12.259Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:06:12.263Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:06:19.318Z - debug:  [17276] TFVC: status exit code: 0 (duration: 7059ms)
+2018-01-05T01:06:20.193Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:06:20.193Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:06:20.197Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:06:21.379Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1186ms)
+2018-01-05T01:07:21.458Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:07:21.458Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:07:21.464Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:07:29.688Z - debug:  [17276] TFVC: status exit code: 0 (duration: 8230ms)
+2018-01-05T01:07:31.359Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:07:31.360Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:07:31.364Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:07:32.233Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 873ms)
+2018-01-05T01:08:02.520Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:08:02.521Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:08:02.525Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:08:11.599Z - debug:  [17276] TFVC: status exit code: 0 (duration: 9078ms)
+2018-01-05T01:08:12.975Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:08:12.976Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:08:12.981Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:08:14.240Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1263ms)
+2018-01-05T01:08:22.145Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:08:22.146Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:08:22.150Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:08:29.528Z - debug:  [17276] TFVC: status exit code: 0 (duration: 7382ms)
+2018-01-05T01:08:30.906Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:08:30.907Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:08:30.910Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:08:32.719Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1812ms)
+2018-01-05T01:09:02.567Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:09:02.572Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:09:02.576Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:09:02.577Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:09:07.787Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:09:12.380Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:09:12.381Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:09:12.392Z - debug:  [17276] TFVC: spawned new process (duration: 9ms)
+2018-01-05T01:09:19.249Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6867ms)
+2018-01-05T01:09:20.158Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:09:20.159Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:09:20.169Z - debug:  [17276] TFVC: spawned new process (duration: 10ms)
+2018-01-05T01:09:22.740Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 2581ms)
+2018-01-05T01:10:02.721Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:10:02.721Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:10:02.724Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:10:09.319Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6597ms)
+2018-01-05T01:10:10.319Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:10:10.319Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:10:10.323Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:10:11.589Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1269ms)
+2018-01-05T01:10:31.402Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:10:31.402Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:10:31.406Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:10:37.447Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6045ms)
+2018-01-05T01:10:38.310Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:10:38.311Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:10:38.313Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:10:39.539Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1228ms)
+2018-01-05T01:14:02.579Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:14:02.581Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:14:02.584Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:14:02.584Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:14:07.590Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:16:53.759Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:16:53.760Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:16:53.773Z - debug:  [17276] TFVC: spawned new process (duration: 11ms)
+2018-01-05T01:16:59.420Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5659ms)
+2018-01-05T01:17:00.513Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:17:00.516Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:17:00.520Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:17:02.700Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 2184ms)
+2018-01-05T01:17:36.627Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:17:36.628Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:17:36.632Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:17:43.572Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6943ms)
+2018-01-05T01:17:44.997Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:17:44.997Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:17:45.000Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:17:46.390Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1393ms)
+2018-01-05T01:18:00.660Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:18:00.661Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:18:00.676Z - debug:  [17276] TFVC: spawned new process (duration: 14ms)
+2018-01-05T01:18:06.541Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5880ms)
+2018-01-05T01:18:07.467Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:18:07.467Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:18:07.469Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:18:08.751Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1284ms)
+2018-01-05T01:18:13.128Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:18:13.129Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:18:13.132Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:18:18.985Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5856ms)
+2018-01-05T01:18:19.855Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:18:19.855Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:18:19.857Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:18:21.242Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1386ms)
+2018-01-05T01:19:02.587Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:19:02.592Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:19:02.596Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:19:02.597Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:19:12.007Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:19:21.318Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:19:21.318Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:19:21.322Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:19:27.673Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6355ms)
+2018-01-05T01:19:28.563Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:19:28.563Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:19:28.566Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:19:29.780Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1217ms)
+2018-01-05T01:21:55.249Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:21:55.249Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:21:55.255Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T01:22:01.849Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6600ms)
+2018-01-05T01:22:02.755Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:22:02.757Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:22:02.762Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T01:22:03.887Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1130ms)
+2018-01-05T01:22:20.225Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:22:20.225Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:22:20.228Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:22:26.451Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6226ms)
+2018-01-05T01:22:27.529Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:22:27.529Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:22:27.543Z - debug:  [17276] TFVC: spawned new process (duration: 11ms)
+2018-01-05T01:22:28.979Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1450ms)
+2018-01-05T01:24:02.598Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:24:02.602Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:24:02.605Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:24:02.606Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:24:06.899Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:25:43.269Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:25:43.269Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:25:43.272Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:25:49.469Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6199ms)
+2018-01-05T01:25:50.331Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:25:50.331Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:25:50.334Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:25:51.331Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1000ms)
+2018-01-05T01:26:57.086Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:26:57.086Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:26:57.090Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:27:04.118Z - debug:  [17276] TFVC: status exit code: 0 (duration: 7032ms)
+2018-01-05T01:27:04.955Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:27:04.956Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:27:04.959Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:27:06.336Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1380ms)
+2018-01-05T01:27:30.568Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:27:30.568Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:27:30.572Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:27:36.935Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6367ms)
+2018-01-05T01:27:37.890Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:27:37.890Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:27:37.893Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:27:38.817Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 927ms)
+2018-01-05T01:28:07.192Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:28:07.192Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:28:07.195Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:28:13.744Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6552ms)
+2018-01-05T01:28:14.638Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:28:14.638Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:28:14.641Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:28:16.128Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1490ms)
+2018-01-05T01:28:21.663Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:28:21.663Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:28:21.667Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:28:27.046Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5382ms)
+2018-01-05T01:28:28.060Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:28:28.061Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:28:28.064Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:28:29.516Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1455ms)
+2018-01-05T01:28:33.401Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:28:33.401Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:28:33.405Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:28:38.179Z - debug:  [17276] TFVC: status exit code: 0 (duration: 4777ms)
+2018-01-05T01:28:39.046Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:28:39.046Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:28:39.049Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:28:40.031Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 985ms)
+2018-01-05T01:29:00.866Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:29:00.867Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:29:00.873Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T01:29:02.611Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:29:02.612Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:29:02.614Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:29:02.614Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:29:06.358Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5491ms)
+2018-01-05T01:29:07.218Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:29:07.218Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:29:07.222Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:29:07.886Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:29:07.925Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 706ms)
+2018-01-05T01:29:12.140Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:29:12.140Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:29:12.145Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:29:17.473Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5332ms)
+2018-01-05T01:29:18.391Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:29:18.391Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:29:18.394Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:29:20.112Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1721ms)
+2018-01-05T01:29:24.388Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:29:24.388Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:29:24.395Z - debug:  [17276] TFVC: spawned new process (duration: 6ms)
+2018-01-05T01:29:30.000Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5611ms)
+2018-01-05T01:29:31.078Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:29:31.079Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:29:31.082Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:29:32.273Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1194ms)
+2018-01-05T01:29:51.426Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:29:51.426Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:29:51.434Z - debug:  [17276] TFVC: spawned new process (duration: 6ms)
+2018-01-05T01:29:57.031Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5604ms)
+2018-01-05T01:29:58.020Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:29:58.020Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:29:58.024Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:29:59.662Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1642ms)
+2018-01-05T01:30:13.736Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:30:13.737Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:30:13.742Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T01:30:19.333Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5596ms)
+2018-01-05T01:30:20.252Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:30:20.253Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:30:20.256Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:30:21.710Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1457ms)
+2018-01-05T01:30:31.824Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:30:31.825Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:30:31.831Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:30:37.509Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5684ms)
+2018-01-05T01:30:38.361Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:30:38.361Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:30:38.364Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:30:39.656Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1294ms)
+2018-01-05T01:30:44.001Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:30:44.001Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:30:44.006Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:30:49.067Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5065ms)
+2018-01-05T01:30:49.930Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:30:49.930Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:30:49.933Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:30:51.263Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1333ms)
+2018-01-05T01:33:03.455Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:33:03.455Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:33:03.459Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:33:10.436Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6981ms)
+2018-01-05T01:33:11.923Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:33:11.923Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:33:11.928Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:33:13.280Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1357ms)
+2018-01-05T01:33:23.215Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:33:23.215Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:33:23.219Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:33:28.608Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5393ms)
+2018-01-05T01:33:29.467Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:33:29.467Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:33:29.471Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:33:30.769Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1302ms)
+2018-01-05T01:34:02.614Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:34:02.615Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:34:02.616Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:34:02.616Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:34:06.485Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:35:08.564Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:35:08.565Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:35:08.572Z - debug:  [17276] TFVC: spawned new process (duration: 6ms)
+2018-01-05T01:35:14.656Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6091ms)
+2018-01-05T01:35:15.621Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:35:15.621Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:35:15.624Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:35:16.940Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1319ms)
+2018-01-05T01:35:47.019Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:35:47.020Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:35:47.023Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:35:53.052Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6031ms)
+2018-01-05T01:35:53.940Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:35:53.940Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:35:53.943Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:35:55.604Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1663ms)
+2018-01-05T01:36:11.897Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:36:11.897Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:36:11.901Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:36:17.251Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5354ms)
+2018-01-05T01:36:18.097Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:36:18.098Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:36:18.102Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:36:19.643Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1545ms)
+2018-01-05T01:36:52.832Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:36:52.832Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:36:52.834Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:36:59.895Z - debug:  [17276] TFVC: status exit code: 0 (duration: 7063ms)
+2018-01-05T01:37:00.774Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:37:00.774Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:37:00.777Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:37:01.483Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 709ms)
+2018-01-05T01:37:06.506Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:37:06.507Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:37:06.511Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:37:12.840Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6333ms)
+2018-01-05T01:37:14.072Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:37:14.073Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:37:14.075Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:37:15.497Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1424ms)
+2018-01-05T01:39:02.617Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:39:02.619Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:39:02.620Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:39:02.621Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:39:07.364Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:40:50.066Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:40:50.067Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:40:50.070Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:40:56.157Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6090ms)
+2018-01-05T01:40:57.108Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:40:57.108Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:40:57.110Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:40:58.712Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1604ms)
+2018-01-05T01:43:55.991Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:43:55.992Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:43:55.999Z - debug:  [17276] TFVC: spawned new process (duration: 7ms)
+2018-01-05T01:44:02.622Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:44:02.624Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:44:02.625Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:44:02.625Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:44:02.870Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6878ms)
+2018-01-05T01:44:04.326Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:44:04.326Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:44:04.329Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:44:06.138Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1811ms)
+2018-01-05T01:44:12.966Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:44:29.146Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:44:29.146Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:44:29.152Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T01:44:35.440Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6294ms)
+2018-01-05T01:44:36.307Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:44:36.307Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:44:36.310Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:44:37.800Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1493ms)
+2018-01-05T01:45:07.003Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:45:07.003Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:45:07.007Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:45:12.839Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5836ms)
+2018-01-05T01:45:13.709Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:45:13.709Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:45:13.713Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:45:15.195Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1486ms)
+2018-01-05T01:45:30.169Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:45:30.169Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:45:30.172Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:45:36.056Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5887ms)
+2018-01-05T01:45:36.983Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:45:36.983Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:45:36.986Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:45:37.675Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 692ms)
+2018-01-05T01:46:22.498Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:46:22.499Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:46:22.506Z - debug:  [17276] TFVC: spawned new process (duration: 6ms)
+2018-01-05T01:46:29.509Z - debug:  [17276] TFVC: status exit code: 0 (duration: 7009ms)
+2018-01-05T01:46:30.491Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:46:30.491Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:46:30.494Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:46:31.811Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1320ms)
+2018-01-05T01:46:49.867Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:46:49.868Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:46:49.872Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:46:56.187Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6319ms)
+2018-01-05T01:46:57.074Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:46:57.074Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:46:57.076Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:46:58.329Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1255ms)
+2018-01-05T01:47:12.020Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:47:12.022Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:47:12.025Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:47:18.608Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6586ms)
+2018-01-05T01:47:19.675Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:47:19.676Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:47:19.679Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:47:21.479Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1803ms)
+2018-01-05T01:48:34.989Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:48:34.990Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:48:34.995Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T01:48:41.558Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6568ms)
+2018-01-05T01:48:42.524Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:48:42.524Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:48:42.528Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:48:43.813Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1288ms)
+2018-01-05T01:48:49.272Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:48:49.272Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:48:49.279Z - debug:  [17276] TFVC: spawned new process (duration: 6ms)
+2018-01-05T01:48:55.337Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6065ms)
+2018-01-05T01:48:56.284Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:48:56.285Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:48:56.288Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:48:57.721Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1436ms)
+2018-01-05T01:49:02.145Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:49:02.145Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:49:02.149Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:49:02.626Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:49:02.628Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:49:02.629Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:49:02.630Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:49:07.175Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:49:08.709Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6563ms)
+2018-01-05T01:49:09.739Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:49:09.740Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:49:09.743Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:49:11.310Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1570ms)
+2018-01-05T01:49:21.051Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:49:21.052Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:49:21.056Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:49:26.839Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5787ms)
+2018-01-05T01:49:27.736Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:49:27.736Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:49:27.739Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:49:28.671Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 935ms)
+2018-01-05T01:50:34.190Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:50:34.191Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:50:34.198Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T01:50:41.197Z - debug:  [17276] TFVC: status exit code: 0 (duration: 7006ms)
+2018-01-05T01:50:42.445Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:50:42.445Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:50:42.449Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:50:44.025Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1580ms)
+2018-01-05T01:50:53.378Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:50:53.379Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:50:53.386Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:50:59.555Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6174ms)
+2018-01-05T01:51:00.609Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:51:00.609Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:51:00.612Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:51:01.821Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1212ms)
+2018-01-05T01:51:11.107Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:51:11.107Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:51:11.111Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:51:16.703Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5596ms)
+2018-01-05T01:51:17.646Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:51:17.646Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:51:17.649Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:51:20.007Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 2361ms)
+2018-01-05T01:51:26.350Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:51:26.351Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:51:26.356Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T01:51:32.075Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5724ms)
+2018-01-05T01:51:33.015Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:51:33.015Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:51:33.018Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:51:34.294Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1279ms)
+2018-01-05T01:51:39.443Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:51:39.444Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:51:39.452Z - debug:  [17276] TFVC: spawned new process (duration: 6ms)
+2018-01-05T01:51:44.809Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5364ms)
+2018-01-05T01:51:45.851Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:51:45.852Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:51:45.855Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:51:47.194Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1341ms)
+2018-01-05T01:52:01.262Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:52:01.262Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:52:01.268Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T01:52:07.053Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5791ms)
+2018-01-05T01:52:07.941Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:52:07.942Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:52:07.944Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:52:09.206Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1264ms)
+2018-01-05T01:54:02.632Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:54:02.639Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:54:02.643Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:54:02.645Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:54:07.886Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T01:54:15.941Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:54:15.941Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:54:15.944Z - debug:  [17276] TFVC: spawned new process (duration: 2ms)
+2018-01-05T01:54:22.202Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6260ms)
+2018-01-05T01:54:23.170Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:54:23.171Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:54:23.174Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:54:24.429Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1258ms)
+2018-01-05T01:54:43.803Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T01:54:43.803Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T01:54:43.808Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T01:54:50.468Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6665ms)
+2018-01-05T01:54:52.259Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T01:54:52.260Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T01:54:52.264Z - debug:  [17276] TFVC: spawned new process (duration: 4ms)
+2018-01-05T01:54:53.599Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1339ms)
+2018-01-05T01:59:02.646Z - info:   [17276] Polling for latest current build status...
+2018-01-05T01:59:02.654Z - info:   [17276] Getting current build from badge...
+2018-01-05T01:59:02.666Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T01:59:02.667Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T01:59:07.637Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:04:02.671Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:04:02.673Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:04:02.675Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:04:02.675Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:04:07.232Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:09:02.677Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:09:02.679Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:09:02.679Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:09:02.679Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:09:08.451Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:14:02.681Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:14:02.694Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:14:02.695Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:14:02.695Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:14:08.368Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:19:02.695Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:19:02.696Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:19:02.699Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:19:02.699Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:19:08.523Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:24:02.700Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:24:02.701Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:24:02.702Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:24:02.704Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:24:08.270Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:27:53.993Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T02:27:53.994Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T02:27:54.003Z - debug:  [17276] TFVC: spawned new process (duration: 6ms)
+2018-01-05T02:28:00.930Z - debug:  [17276] TFVC: status exit code: 0 (duration: 6935ms)
+2018-01-05T02:28:02.109Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T02:28:02.109Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T02:28:02.115Z - debug:  [17276] TFVC: spawned new process (duration: 5ms)
+2018-01-05T02:28:03.256Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1146ms)
+2018-01-05T02:28:22.677Z - debug:  [17276] TFVC Repository.GetStatus
+2018-01-05T02:28:22.677Z - debug:  [17276] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T02:28:22.684Z - debug:  [17276] TFVC: spawned new process (duration: 6ms)
+2018-01-05T02:28:28.448Z - debug:  [17276] TFVC: status exit code: 0 (duration: 5770ms)
+2018-01-05T02:28:29.477Z - debug:  [17276] TFVC Repository.FindConflicts
+2018-01-05T02:28:29.478Z - debug:  [17276] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T02:28:29.481Z - debug:  [17276] TFVC: spawned new process (duration: 3ms)
+2018-01-05T02:28:30.863Z - debug:  [17276] TFVC: resolve exit code: 0 (duration: 1385ms)
+2018-01-05T02:29:02.705Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:29:02.708Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:29:02.710Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:29:02.710Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:29:08.857Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:34:02.713Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:34:02.719Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:34:02.720Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:34:02.721Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:34:08.694Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:39:02.735Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:39:02.736Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:39:02.736Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:39:02.736Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:39:08.878Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:44:02.737Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:44:02.738Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:44:02.739Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:44:02.739Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:44:08.068Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:49:02.738Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:49:02.738Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:49:02.738Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:49:02.738Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:49:08.245Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:54:02.739Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:54:02.739Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:54:02.739Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:54:02.739Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:54:07.604Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T02:59:02.759Z - info:   [17276] Polling for latest current build status...
+2018-01-05T02:59:02.760Z - info:   [17276] Getting current build from badge...
+2018-01-05T02:59:02.761Z - info:   [17276] Polling for the pinned work itemquery
+2018-01-05T02:59:02.761Z - info:   [17276] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T02:59:07.964Z - info:   [17276] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T03:02:31.993Z - info:   [15768] *** FOLDER: d:\CairsClient ***
+2018-01-05T03:02:31.994Z - info:   [15768] VSTSVSCode/1.122.0 (VSCode 1.19.1; Windows_NT 10.0.16299; Node 7.9.0)
+2018-01-05T03:02:31.994Z - debug:  [15768] Looking for an External Context at d:\CairsClient
+2018-01-05T03:02:31.994Z - debug:  [15768] No External Context at d:\CairsClient
+2018-01-05T03:02:31.994Z - debug:  [15768] Looking for TFVC repository at d:\CairsClient
+2018-01-05T03:02:31.994Z - debug:  [15768] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-05T03:02:32.007Z - debug:  [15768] Using TFS proxy: 
+2018-01-05T03:02:32.008Z - debug:  [15768] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-05T03:02:32.008Z - debug:  [15768] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-05T03:02:32.011Z - debug:  [15768] TFVC Repository.CheckVersion
+2018-01-05T03:02:32.011Z - debug:  [15768] TFVC: tf add -noprompt -?
+2018-01-05T03:02:32.025Z - debug:  [15768] TFVC: spawned new process (duration: 13ms)
+2018-01-05T03:02:32.030Z - debug:  [15768] TFVC: spawned new process (duration: 4ms)
+2018-01-05T03:02:32.642Z - debug:  [15768] TFVC: add exit code: 0 (duration: 631ms)
+2018-01-05T03:02:32.643Z - debug:  [15768] TFVC Minimum required version: 14.102.0
+2018-01-05T03:02:32.643Z - debug:  [15768] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-05T03:02:32.643Z - debug:  [15768] TFVC Repository.FindWorkspace with localPath='d:\CairsClient'
+2018-01-05T03:02:32.644Z - debug:  [15768] TFVC: tf workfold -noprompt ********
+2018-01-05T03:02:32.649Z - debug:  [15768] TFVC: spawned new process (duration: 4ms)
+2018-01-05T03:02:33.229Z - debug:  [15768] TFVC: workfold exit code: 0 (duration: 585ms)
+2018-01-05T03:02:33.230Z - debug:  [15768] Found a TFVC repository for url: 'https://uniquedev.visualstudio.com/' and team project: 'CairsDotNet'.
+2018-01-05T03:02:33.231Z - debug:  [15768] _isTeamServicesUrl: true
+2018-01-05T03:02:33.231Z - debug:  [15768] Parsing values from repositoryInfo as string url
+2018-01-05T03:02:33.231Z - debug:  [15768] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-05T03:02:33.232Z - debug:  [15768] Using TFS proxy: 
+2018-01-05T03:02:33.233Z - debug:  [15768] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-05T03:02:33.233Z - debug:  [15768] TFVC Repository created with repositoryRootFolder='d:\CairsClient'
+2018-01-05T03:02:33.315Z - debug:  [15768] Started ApplicationInsights telemetry
+2018-01-05T03:02:33.315Z - info:   [15768] Getting repository information with repositoryInfoClient
+2018-01-05T03:02:33.315Z - debug:  [15768] RemoteUrl = https://uniquedev.visualstudio.com/
+2018-01-05T03:02:33.315Z - debug:  [15768] Getting repository information for a TFVC repository at https://uniquedev.visualstudio.com/
+2018-01-05T03:02:33.315Z - debug:  [15768] _isTeamServicesUrl: true
+2018-01-05T03:02:33.316Z - debug:  [15768] Parsing values from repositoryInfo as string url
+2018-01-05T03:02:35.795Z - debug:  [15768] Successfully validated the Team Services TFVC repository. Collection name: 'uniquedev', 'Url: https://uniquedev.visualstudio.com/'
+2018-01-05T03:02:35.795Z - debug:  [15768] Getting project collection...  url: 'https://uniquedev.visualstudio.com/', and collection name: 'uniquedev'
+2018-01-05T03:02:35.795Z - debug:  [15768] Using REST to get the project collection information
+2018-01-05T03:02:41.155Z - debug:  [15768] Found a project collection for url: 'https://uniquedev.visualstudio.com/' and collection name: 'uniquedev'.
+2018-01-05T03:02:41.155Z - debug:  [15768] Getting team project...  Url: 'https://uniquedev.visualstudio.com/', collection name: 'uniquedev', and project: 'CairsDotNet'
+2018-01-05T03:02:45.060Z - debug:  [15768] Found a team project for url: 'https://uniquedev.visualstudio.com/', collection name: 'uniquedev', and project id: '180c142e-371a-4257-be61-89cd67148942'
+2018-01-05T03:02:45.060Z - debug:  [15768] Repository information blob:
+2018-01-05T03:02:45.061Z - debug:  serverUrl=https://uniquedev.visualstudio.com/, id=f8266964-bd1c-44d9-af22-78bef4f61c9d, name=uniquedev, url=https://uniquedev.visualstudio.com/_apis/projectCollections/f8266964-bd1c-44d9-af22-78bef4f61c9d, id=00000000-0000-0000-0000-000000000000, name=NoNameTfvcRepository, url=https://uniquedev.visualstudio.com/, id=180c142e-371a-4257-be61-89cd67148942, name=CairsDotNet, description=cairs.net version 4.0, url=https://uniquedev.visualstudio.com/_apis/projects/180c142e-371a-4257-be61-89cd67148942, state=1, revision=15, remoteUrl=https://uniquedev.visualstudio.com/
+2018-01-05T03:02:45.061Z - debug:  [15768] _isTeamServicesUrl: true
+2018-01-05T03:02:45.061Z - debug:  [15768] Parsing values from repositoryInfo object as any
+2018-01-05T03:02:45.061Z - debug:  [15768] _collection: uniquedev
+2018-01-05T03:02:45.061Z - debug:  [15768] _collectionId: f8266964-bd1c-44d9-af22-78bef4f61c9d
+2018-01-05T03:02:45.061Z - debug:  [15768] _repositoryId: 00000000-0000-0000-0000-000000000000
+2018-01-05T03:02:45.062Z - debug:  [15768] _repositoryName: NoNameTfvcRepository
+2018-01-05T03:02:45.062Z - debug:  [15768] _teamProject: CairsDotNet
+2018-01-05T03:02:45.062Z - debug:  [15768] Finished getting repository information for the repository at https://uniquedev.visualstudio.com/
+2018-01-05T03:02:45.062Z - info:   [15768] Getting connectionData with accountClient
+2018-01-05T03:02:45.062Z - debug:  [15768] connectionUrl = https://uniquedev.visualstudio.com
+2018-01-05T03:02:47.244Z - info:   [15768] Retrieved connectionData with accountClient
+2018-01-05T03:02:47.245Z - debug:  [15768] Found pinned queries in user configuration settings.
+2018-01-05T03:02:47.246Z - debug:  [15768] No account-specific pinned query or global pinned query found. Using default.
+2018-01-05T03:02:47.247Z - info:   [15768] Sent extension start up telemetry
+2018-01-05T03:02:47.247Z - debug:  id=41b7b6a1-28d4-45bb-8747-99ada24b3a06, descriptor=Microsoft.IdentityModel.Claims.ClaimsIdentity;8d639db3-3db5-4913-a87a-d12cec7bcc93\mark.moulton@unique.net, subjectDescriptor=aad.MTQwOTMzZGQtMzRmMy03MjZhLWIwZmEtY2U1ZWUzOTczOWQ3, providerDisplayName=Mark Moulton, isActive=true, members=[], memberOf=[], memberIds=[], $type=System.String, $value=User, $type=System.String, $value=, $type=System.String, $value=8d639db3-3db5-4913-a87a-d12cec7bcc93, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=Generic, $type=System.String, $value=aad:10033FFF8CBB769D, $type=System.DateTime, $value=2018-01-05T00:00:00Z, $type=System.String, $value=396f2b48-57e4-4421-b48b-0262e1c2ffbb, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton, resourceVersion=1, metaTypeId=0, id=41b7b6a1-28d4-45bb-8747-99ada24b3a06, descriptor=Microsoft.IdentityModel.Claims.ClaimsIdentity;8d639db3-3db5-4913-a87a-d12cec7bcc93\mark.moulton@unique.net, subjectDescriptor=aad.MTQwOTMzZGQtMzRmMy03MjZhLWIwZmEtY2U1ZWUzOTczOWQ3, providerDisplayName=Mark Moulton, isActive=true, members=[], memberOf=[], memberIds=[], $type=System.String, $value=User, $type=System.String, $value=, $type=System.String, $value=8d639db3-3db5-4913-a87a-d12cec7bcc93, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=Generic, $type=System.String, $value=aad:10033FFF8CBB769D, $type=System.DateTime, $value=2018-01-05T00:00:00Z, $type=System.String, $value=396f2b48-57e4-4421-b48b-0262e1c2ffbb, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton@unique.net, $type=System.String, $value=mark.moulton, resourceVersion=1, metaTypeId=0, instanceId=f8266964-bd1c-44d9-af22-78bef4f61c9d, deploymentId=52b4b0e6-4e32-471a-b490-dba776dd4096, serviceOwner=00025394-6065-48ca-87d9-7f5672854ef7, defaultAccessMappingMoniker=PublicAccessMapping, lastChangeId=144302116, lastChangeId64=144302116
+2018-01-05T03:02:47.248Z - debug:  [15768] Account: uniquedev Team Project: CairsDotNet Collection: uniquedev Repository: NoNameTfvcRepository UserCustomDisplayName: undefined UserProviderDisplayName: Mark Moulton UserId: 41b7b6a1-28d4-45bb-8747-99ada24b3a06 
+2018-01-05T03:02:47.249Z - debug:  [15768] repositoryFolder: d:\CairsClient
+2018-01-05T03:02:47.249Z - debug:  [15768] repositoryRemoteUrl: https://uniquedev.visualstudio.com/
+2018-01-05T03:02:47.249Z - debug:  [15768] IsSsh: false
+2018-01-05T03:02:47.249Z - debug:  [15768] proxy: not enabled, team services: true
+2018-01-05T03:02:47.249Z - info:   [15768] Sent TFVC tooling telemetry
+2018-01-05T03:02:47.249Z - debug:  [15768] Initializing the TfvcSCMProvider
+2018-01-05T03:02:47.250Z - debug:  [15768] TFVC Repository.CheckVersion
+2018-01-05T03:02:47.250Z - debug:  [15768] TFVC: tf add -noprompt -?
+2018-01-05T03:02:47.254Z - debug:  [15768] TFVC: spawned new process (duration: 3ms)
+2018-01-05T03:02:47.301Z - debug:  [15768] TFVC: add exit code: 0 (duration: 51ms)
+2018-01-05T03:02:47.301Z - debug:  [15768] TFVC Minimum required version: 14.102.0
+2018-01-05T03:02:47.301Z - debug:  [15768] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-05T03:02:47.303Z - debug:  [15768] TFVC Repository.GetStatus
+2018-01-05T03:02:47.303Z - debug:  [15768] TFVC: tf status -noprompt -collection:https://uniquedev.visualstudio.com ******** -format:detailed -recursive
+2018-01-05T03:02:47.307Z - debug:  [15768] TFVC: spawned new process (duration: 4ms)
+2018-01-05T03:02:51.247Z - info:   [15768] Polling for latest current build status...
+2018-01-05T03:02:51.247Z - info:   [15768] Getting current build from badge...
+2018-01-05T03:02:51.248Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-05T03:02:51.248Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T03:02:56.597Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T03:03:02.395Z - debug:  [15768] TFVC: status exit code: 0 (duration: 15090ms)
+2018-01-05T03:03:03.646Z - debug:  [15768] TFVC Repository.FindConflicts
+2018-01-05T03:03:03.648Z - debug:  [15768] TFVC: tf resolve -noprompt ******** d:\CairsClient -recursive -preview
+2018-01-05T03:03:03.655Z - debug:  [15768] TFVC: spawned new process (duration: 6ms)
+2018-01-05T03:03:05.089Z - debug:  [15768] TFVC: resolve exit code: 0 (duration: 1441ms)
+2018-01-05T03:03:05.388Z - debug:  [15768] Initialized the TfvcSCMProvider
+2018-01-05T03:07:47.248Z - info:   [15768] Polling for latest current build status...
+2018-01-05T03:07:47.255Z - info:   [15768] Getting current build from badge...
+2018-01-05T03:07:47.261Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-05T03:07:47.262Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T03:07:54.651Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T03:12:50.494Z - info:   [15768] Polling for latest current build status...
+2018-01-05T03:12:50.495Z - info:   [15768] Getting current build from badge...
+2018-01-05T03:12:50.495Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-05T03:12:50.495Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T03:12:55.771Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T03:17:50.497Z - info:   [15768] Polling for latest current build status...
+2018-01-05T03:17:50.498Z - info:   [15768] Getting current build from badge...
+2018-01-05T03:17:50.498Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-05T03:17:50.498Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T03:17:55.437Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T03:22:50.499Z - info:   [15768] Polling for latest current build status...
+2018-01-05T03:22:50.499Z - info:   [15768] Getting current build from badge...
+2018-01-05T03:22:50.500Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-05T03:22:50.500Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T03:22:57.643Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T03:27:50.501Z - info:   [15768] Polling for latest current build status...
+2018-01-05T03:27:50.502Z - info:   [15768] Getting current build from badge...
+2018-01-05T03:27:50.502Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-05T03:27:50.503Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T03:27:56.956Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T03:32:50.503Z - info:   [15768] Polling for latest current build status...
+2018-01-05T03:32:50.505Z - info:   [15768] Getting current build from badge...
+2018-01-05T03:32:50.505Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-05T03:32:50.506Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T03:32:56.786Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-05T06:34:12.556Z - info:   [15768] Polling for latest current build status...
+2018-01-05T06:34:12.556Z - info:   [15768] Getting current build from badge...
+2018-01-05T06:34:12.556Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-05T06:34:12.557Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-05T06:34:12.562Z - error:  [15768] Failed to get current build status It appears Visual Studio Code is offline. Please connect and try again.
+2018-01-05T06:34:12.562Z - error:  [15768] Failed to get pinned query count during polling It appears Visual Studio Code is offline. Please connect and try again.
+2018-01-10T17:02:31.434Z - info:   [15768] Polling for latest current build status...
+2018-01-10T17:02:31.435Z - info:   [15768] Getting current build from badge...
+2018-01-10T17:02:31.435Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-10T17:02:31.435Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-10T17:02:31.439Z - error:  [15768] Failed to get current build status It appears Visual Studio Code is offline. Please connect and try again.
+2018-01-10T17:02:31.439Z - error:  [15768] Failed to get pinned query count during polling It appears Visual Studio Code is offline. Please connect and try again.
+2018-01-10T17:07:31.442Z - info:   [15768] Polling for latest current build status...
+2018-01-10T17:07:31.442Z - info:   [15768] Getting current build from badge...
+2018-01-10T17:07:31.443Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-10T17:07:31.444Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-10T17:07:34.665Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-10T17:12:31.458Z - info:   [15768] Polling for latest current build status...
+2018-01-10T17:12:31.460Z - info:   [15768] Getting current build from badge...
+2018-01-10T17:12:31.460Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-10T17:12:31.460Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-10T17:12:35.776Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
+2018-01-10T17:17:31.474Z - info:   [15768] Polling for latest current build status...
+2018-01-10T17:17:31.475Z - info:   [15768] Getting current build from badge...
+2018-01-10T17:17:31.475Z - info:   [15768] Polling for the pinned work itemquery
+2018-01-10T17:17:31.475Z - info:   [15768] Running pinned work item query to get count (CairsDotNet)...
+2018-01-10T17:17:34.641Z - info:   [15768] No builds were found for team CairsDotNet, repo id 00000000-0000-0000-0000-000000000000, + branch UNKNOWN
